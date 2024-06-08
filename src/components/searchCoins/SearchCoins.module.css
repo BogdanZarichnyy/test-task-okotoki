@@ -1,0 +1,20 @@
+
+.backdropSearchCoins {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: transparent;
+  z-index: 10;
+}
+
+.searchCoins {
+  position: absolute;
+  left: 50%;
+  top: 53px;
+  transform: translateX(-50%);
+  width: 260px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}

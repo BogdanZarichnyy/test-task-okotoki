@@ -1,0 +1,40 @@
+.inputSearch {
+  position: relative;
+  padding: 5px 10px;
+}
+
+.inputSearch .searchIcon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.inputSearch .crossIcon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.inputSearchCoins {
+  width: 100%;
+  background-color: inherit;
+  color: inherit;
+  font-size: 14px;
+  border: 0;
+  padding: 10px 16px 10px 29px;
+  outline: none;
+}
+
+.buttonClearSearchCoins{
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.searchIcon,
+.crossIcon {
+  fill: white;
+}

@@ -1,0 +1,31 @@
+
+.buttonSearch {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  z-index: 20;
+}
+
+.buttonSearch:hover,
+.buttonSearch:focus {
+  border: 1px solid grey;
+  background-color: rgb(87, 81, 81);
+}
+
+.buttonSearch:active {
+  box-shadow:
+    1px 1px 1px white,
+    -1px 1px 1px white,
+    1px -1px 1px white,
+    -1px -1px 1px white;
+}
+
+.buttonSearch > svg {
+  margin-right: 10px;
+}

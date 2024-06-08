@@ -1,0 +1,26 @@
+.filterCoins {
+  display: flex;
+  padding: 5px 10px;
+  border-top: 1px solid grey;
+}
+
+.buttonFilter {
+  z-index: 1;
+}
+
+.buttonFilter + .buttonFilter {
+  margin-left: 10px;
+}
+
+.activeButtonFilter {
+  font-weight: 700;
+}
+
+.favoriteCoinIcon {
+  fill: white;
+  cursor: pointer;
+}
+
+.buttonFilter > svg {
+  margin-right: 10px;
+}

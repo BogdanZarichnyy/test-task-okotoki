@@ -1,0 +1,46 @@
+.App {
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.wrraper {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+/* ------------------------------------------------------------- */
+
+.info {
+  display: inline-block;
+  padding: 5px 0;
+  margin-right: 10px;
+}
+
+.infoItem:first-child {
+  border-left: 1px solid grey;
+  padding-left: 10px;
+}
+
+.infoItem:not(:first-child) {
+  margin-left: 20px;
+}
+
+.infoItem:last-child {
+  border-right: 1px solid grey;
+  padding-right: 10px;
+}
+
+/* ------------------------------------------------------------- */
+
+.searchIcon {
+  fill: white;
+}

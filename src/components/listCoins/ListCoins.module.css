@@ -1,0 +1,43 @@
+
+.listCoins {
+  height: 330px;
+  overflow: scroll;
+  padding: 0 10px;
+}
+
+.listCoins::-webkit-scrollbar {
+  display: none;
+}
+
+.itemCoins {
+  padding: 5px 11px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.itemCoins:hover {
+  background-color: rgb(87, 81, 81);
+}
+
+.itemCoins > svg {
+  margin-right: 10px;
+}
+
+.itemCoins + .itemCoins {
+  margin-top: 5px;
+}
+
+.favoriteCoinIcon {
+  fill: white;
+  cursor: pointer;
+}
+
+.primaryCoinIcon {
+  fill: transparent;
+  stroke: white;
+  stroke-width: 1px;
+}
+
+.closeIcon {
+  fill: white;
+}
