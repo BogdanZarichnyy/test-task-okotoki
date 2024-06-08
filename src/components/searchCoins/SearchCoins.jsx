@@ -51,8 +51,8 @@ const SearchCoins = ({ setIsOpenSeacrhList }) => {
     );
   }
 
-  const handlerButtonFilter = () => {
-    setIsFavoriteCoins(!isFavoriteCoins);
+  const handlerButtonFilter = (isFavorite) => {
+    setIsFavoriteCoins(isFavorite);
   }
 
   return (

@@ -13,7 +13,7 @@ const FilterCoins = ({ isFavoriteCoins, handlerButtonFilter }) => {
           css.buttonFilter, 
           isFavoriteCoins && css.activeButtonFilter
         ].join(' ')} 
-        onClick={handlerButtonFilter} 
+        onClick={() => handlerButtonFilter(true)} 
         text='Favorites' 
       >
         <svg className={css.favoriteCoinIcon} width="14px" height="12px">
@@ -26,7 +26,7 @@ const FilterCoins = ({ isFavoriteCoins, handlerButtonFilter }) => {
           css.buttonFilter, 
           !isFavoriteCoins && css.activeButtonFilter
         ].join(' ')} 
-        onClick={handlerButtonFilter} 
+        onClick={() => handlerButtonFilter(false)} 
         text='All coins' 
       />
 

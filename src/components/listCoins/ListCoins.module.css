@@ -12,6 +12,7 @@
 .itemCoins {
   padding: 5px 11px;
   border-radius: 10px;
+  user-select: none;
   cursor: pointer;
 }
 
