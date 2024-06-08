@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/test-task-okotoki/static/css/main.0035cd90.css",
+    "main.js": "/test-task-okotoki/static/js/main.8fcbb872.js",
+    "static/media/sprite.svg": "/test-task-okotoki/static/media/sprite.4109b126f432b43d66a4cf2fbad2c1fd.svg",
+    "index.html": "/test-task-okotoki/index.html",
+    "main.0035cd90.css.map": "/test-task-okotoki/static/css/main.0035cd90.css.map",
+    "main.8fcbb872.js.map": "/test-task-okotoki/static/js/main.8fcbb872.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0035cd90.css",
+    "static/js/main.8fcbb872.js"
+  ]
+}
