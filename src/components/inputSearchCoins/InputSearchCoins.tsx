@@ -1,10 +1,11 @@
 import Button from '../button/Button';
+import { IInputSearchCoins } from '../../assets/interfaces';
 
 import css from './InputSearchCoins.module.css';
 
-import sprite from '../../images/sprite.svg';
+import sprite from '../../assets/sprite.svg';
 
-const InputSearchCoins = ({ handlerChangeInput, seacrhText, isInputSeacrhClear, handlerButtonClearSearchCoins }) => {
+const InputSearchCoins = ({ handlerChangeInput, seacrhText, isInputSeacrhClear, handlerButtonClearSearchCoins }: IInputSearchCoins) => {
   return (
     <div className={css.inputSearch}>
 

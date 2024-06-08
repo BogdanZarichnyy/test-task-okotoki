@@ -1,8 +1,10 @@
+import { IListCoins } from '../../assets/interfaces';
+
 import css from './ListCoins.module.css';
 
-import sprite from '../../images/sprite.svg';
+import sprite from '../../assets/sprite.svg';
 
-const ListCoins = ({ coins, isFavoriteCoins, seacrhText, handlerFavoriteCoin }) => {
+const ListCoins = ({ coins, isFavoriteCoins, seacrhText, handlerFavoriteCoin }: IListCoins) => {
   return (
     <ul className={css.listCoins} id="scroll">
       {!!coins && coins

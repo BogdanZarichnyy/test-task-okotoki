@@ -4,10 +4,10 @@ import SearchCoins from './components/searchCoins/SearchCoins';
 
 import css from './App.module.css';
 
-import sprite from './images/sprite.svg';
+import sprite from './assets/sprite.svg';
 
 const App = () => {
-  const [isOpenSeacrhList, setIsOpenSeacrhList] = useState(false);
+  const [isOpenSeacrhList, setIsOpenSeacrhList] = useState<boolean>(false);
 
   const handlerButtonToggleSearchList = () => {
     setIsOpenSeacrhList(!isOpenSeacrhList);

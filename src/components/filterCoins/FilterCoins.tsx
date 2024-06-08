@@ -1,10 +1,11 @@
 import Button from '../button/Button';
+import { IFilterCoins } from '../../assets/interfaces';
 
 import css from './FilterCoins.module.css';
 
-import sprite from '../../images/sprite.svg';
+import sprite from '../../assets/sprite.svg';
 
-const FilterCoins = ({ isFavoriteCoins, handlerButtonFilter }) => {
+const FilterCoins = ({ isFavoriteCoins, handlerButtonFilter }: IFilterCoins) => {
   return (
     <div className={css.filterCoins}>
 
