@@ -24,7 +24,7 @@ const SearchCoins = ({ setIsOpenSeacrhList }: ISearchCoins) => {
       .map((item, index) => ({ id: index, coin: item, isFavorite: false }) )
     ].sort((prevItem, item) => prevItem.coin.localeCompare(item.coin))
     setCoinsList(initialListCoins);
-    setTotalCountCoins(() => initialListCoins.length); // один із записів JSON пустий
+    setTotalCountCoins(initialListCoins.length); // один із записів JSON пустий
   }, []);
 
   const filterListCoin = useMemo(() => {
