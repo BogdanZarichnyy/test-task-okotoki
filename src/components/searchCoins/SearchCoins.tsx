@@ -19,13 +19,12 @@ const SearchCoins = ({ setIsOpenSeacrhList }: ISearchCoins) => {
   const [isFavoriteCoins, setIsFavoriteCoins] = useState<boolean>(false);
 
   useEffect(() => {
-    setCoinsList(
-      [...coinsJSON
-        .filter((item) => item !== '')  // один із записів JSON пустий
-        .map((item, index) => ({ id: index, coin: item, isFavorite: false }) )
-      ].sort((prevItem, item) => prevItem.coin.localeCompare(item.coin))
-    );
-    setTotalCountCoins(() => coinsJSON.length - 1); // один із записів JSON пустий
+    const initialListCoins: CoinDataType[] = [...coinsJSON
+      .filter((item) => item !== '')  // один із записів JSON пустий
+      .map((item, index) => ({ id: index, coin: item, isFavorite: false }) )
+    ].sort((prevItem, item) => prevItem.coin.localeCompare(item.coin))
+    setCoinsList(initialListCoins);
+    setTotalCountCoins(() => initialListCoins.length); // один із записів JSON пустий
   }, []);
 
   const filterListCoin = useMemo(() => {
@@ -54,7 +53,7 @@ const SearchCoins = ({ setIsOpenSeacrhList }: ISearchCoins) => {
 
   const handlerChangeInput = (event: React.ChangeEvent<HTMLInputElement>) => {
     const searchText = event.target.value;
-    
+
     setSeacrhText(searchText);
 
     if (searchText === '') {
