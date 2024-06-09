@@ -3,3 +3,8 @@ export type CoinDataType = {
   coin: string, 
   isFavorite: boolean
 };
+
+export type VirtualItemType = {
+  index: number,
+  offsetTop: number
+};
