@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/test-task-okotoki/static/css/main.bf9a39df.css",
-    "main.js": "/test-task-okotoki/static/js/main.39cdba93.js",
+    "main.js": "/test-task-okotoki/static/js/main.e3dc17b1.js",
     "static/media/sprite.svg": "/test-task-okotoki/static/media/sprite.4109b126f432b43d66a4cf2fbad2c1fd.svg",
     "index.html": "/test-task-okotoki/index.html",
     "main.bf9a39df.css.map": "/test-task-okotoki/static/css/main.bf9a39df.css.map",
-    "main.39cdba93.js.map": "/test-task-okotoki/static/js/main.39cdba93.js.map"
+    "main.e3dc17b1.js.map": "/test-task-okotoki/static/js/main.e3dc17b1.js.map"
   },
   "entrypoints": [
     "static/css/main.bf9a39df.css",
-    "static/js/main.39cdba93.js"
+    "static/js/main.e3dc17b1.js"
   ]
 }
