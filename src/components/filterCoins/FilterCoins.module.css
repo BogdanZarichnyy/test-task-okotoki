@@ -8,12 +8,28 @@
   z-index: 1;
 }
 
+.buttonFilter:focus {
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.buttonFilter:hover {
+  border: 1px solid transparent;
+  background-color: rgb(87, 81, 81);
+}
+
+.buttonFilter:active {
+  box-shadow: none;
+}
+
 .buttonFilter + .buttonFilter {
   margin-left: 10px;
 }
 
 .activeButtonFilter {
+  background-color: transparent;
   font-weight: 700;
+  cursor: default;
 }
 
 .favoriteCoinIcon {

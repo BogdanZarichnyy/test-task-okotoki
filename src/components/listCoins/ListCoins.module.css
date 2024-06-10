@@ -10,15 +10,16 @@
 .listCoins {
   position: relative;
   padding: 0 10px;
+  user-select: none;
 }
 
 .itemCoins {
   position: absolute;
   top: 0;
+  width: calc(100% - 10px * 2);
   padding: 5px 11px;
   border-radius: 10px;
   user-select: none;
-  cursor: pointer;
 }
 
 .itemCoins:hover {
